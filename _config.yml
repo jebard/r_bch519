@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Eric Pitman Summer Workshop in Computational Science
-author: Mohammad Zia
+title: R Programming Week 9 & 10, UB BCH519
+author: Jonathan Bard (jbard at buffalo . edu ), Mohammad Zia
 logo: ub.png
 
 # Force re-execution of notebooks on each build.
