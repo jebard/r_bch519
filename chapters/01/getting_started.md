@@ -1,4 +1,4 @@
-# The R Programming Language
+# Basic of R
 
 * R is a programming language originally developed in 1993 for statistical analysis.
 * R is an interpreted language, meaning that there is no need for compiling, just like python.
@@ -12,9 +12,6 @@
 * RStudio is an integrated development enviornment (IDE) for R. Similar to Jupyter Notebooks, Eclipse, PyCharm...
   * RStudio is layered ontop of the underlying R programming language.
   * Desktop versions are available, as well as on CCR OnDemand. 
-
-## Getting Started in RStudio Open OnDemand (OOD)
-
 * Navigate to [CCR OOD](https://docs.ccr.buffalo.edu/en/latest/portals/ood/).
 * Scroll down to GUIs and choose the RStudio Server CCR Release 2023.01
 * Choose BCH519, Class, Class, 2 hours, 10,000 MB of RAM
@@ -28,16 +25,12 @@
   - Choose the directory location on the server that you would like to keep the data.
     - "~" is short hand for the home directory
 
-## Set Up Good Project Structure
 * Organization is key! Start a project nice and tidy. I typically recommend the minimum folder structure of:
-  1. data
-    - contains all of your input datasets planned for this project
-  2. output
-    - contains any saved, processed files like output tables or processed RData files
-  3. scripts
-    - where to contain all of your R scripts for the project. 
-  4. images
-    - Any output images/figures that you have generated from your analysis
+  - > data : contains all of your input datasets planned for this project
+  - > output : contains any saved, processed files like output tables or processed RData files
+  - > scripts : contains all of your R scripts for the project. 
+  - > images : captures Any output images/figures that you have generated from your analysis
+
 ![Basic Setup](images/RStudio-Basic-Chapt1.1.png)
 
 * Note this directory structure is the bare minimum. For a [much more detailed plan, look here for inspiration](https://datamanagement.hms.harvard.edu/plan-design/directory-structure)
