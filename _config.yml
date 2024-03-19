@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: R Programming Week 9 & 10, UB BCH519
-author: Jonathan Bard (jbard at buffalo . edu ), Mohammad Zia
+title: UB BCH519 Week 9 & 10 R Programming
+author: Dr. Jonathan Bard, Dr. Mohammad Zia
 logo: ub.png
 
 # Force re-execution of notebooks on each build.
