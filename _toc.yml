@@ -26,3 +26,9 @@ chapters:
   sections:
   - file: chapters/04/vectors
   - file: chapters/04/data_frames
+- file: chapters/05/intro
+  sections:
+  - file: chapters/05/input_output
+- file: chapters/06/intro
+  sections:
+  - file: chapters/06/packages
