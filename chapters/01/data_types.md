@@ -22,13 +22,15 @@ class(FALSE)
 ```{warning}
 One of the most common errors in R is when there is an incorrect usage of atomic data types. For example, trying to take an average of a non-numeric data type.
 ```
+For example, below is a series of commands in R that will throw an NA/Warning due to a function call being used that isn't appropriate for the data type passed.
 
-`#assigns the vector to mydata variable`
-`mydata <- c("A","B","C","D")`
+```R
+#assigns the vector to mydata variable
+mydata <- c("A","B","C","D")
 
-`#calculate the mean of mydata variable`
-`mean(mydata)`
-`[1] NA`
+#calculate the mean of mydata variable
+mean(mydata)
+[1] NA`
 
 Warning message:
 In mean.default(mydata) : argument is not numeric or logical: returning NA
@@ -36,6 +38,5 @@ In mean.default(mydata) : argument is not numeric or logical: returning NA
 #check class to find out why this error might have happened
 class(mydata)
 [1] "character"
-```
 ```
 
