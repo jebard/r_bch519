@@ -10,8 +10,6 @@ logo: ub.png
 execute:
   execute_notebooks: force
 
-
-
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:

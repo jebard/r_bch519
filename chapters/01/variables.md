@@ -14,35 +14,36 @@ and underscore(_). If it starts with period(.), it cannot be followed by a digit
 
 ## Variable Assignment
 
-Variables are created by executing assignment statements.
+Variables are created by executing assignment statements. Either option is considered correct, however generally we prefer using the second "<-" assignment operator. For more fun
+style guidelines for R, check out the [tidyverse style guide](https://style.tidyverse.org/)
 
 ```R
 degrees_celsius = 26.0
 degrees_celsius <- 26.0
 ```
 
-This is called an assignment statement; we say that `degrees_celsius` is assigned the value `26.0`. Whenever Python sees a variable in an expression, it substitutes the value to which the variables refers:
+This is called an assignment statement; we say that `degrees_celsius` is assigned the value `26.0`. Whenever R sees a variable in an expression, it substitutes the value to which the variables refers:
 
 ```R
-degrees_celsius = 26.0
+degrees_celsius <- 26.0
 9 / 5 * degrees_celsius + 32
 ```
 
 Variables are called variables because their value can vary as the program executes.
 
 ```R
-degrees_celsius = 15.5
+degrees_celsius <- 15.5
 9 / 5 * degrees_celsius + 32
 ```
 
 ## Gotchas
 
 ```r
-a = 3.14
+a <- 3.14
 print(a)
 ```
 
 ```r
-print = 3.14
+print <- 3.14
 print(print)
 ```
