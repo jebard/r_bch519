@@ -19,17 +19,22 @@
 * When ready, click on "Connect to RStudio Server" and a new window should open with your RStudio Interface
 
 ## Setting up your first RStudio Project
-* Projects are an easy way to keep analysis clean and organized.
-  - To create your first project, at the top select File > New Project > New Directory > New Project
-  - Decide on your projects name, I would suggest something meaningful like "Bard-BCH519"
-  - Choose the directory location on the server that you would like to keep the data.
+Projects are an easy way to keep analysis clean and organized. Using projects allows the IDE to maintain an "active"
+enviornment that can be saved, and reloaded at later points. Importantly, and unlike python virutal enviornments,
+R workspaces SHARE libraries across projects. Therefore updates packages used in one workspace will effect other workspaces.
+
+  1. To create your first project, at the top select File > New Project > New Directory > New Project
+  2. Decide on your projects name, I would suggest something meaningful like "Bard-BCH519"
+  3. Choose the directory location on the server that you would like to keep the data.
     - "~" is short hand for the home directory
 
-* Organization is key! Start a project nice and tidy. I typically recommend the minimum folder structure of:
-  - > data : contains all of your input datasets planned for this project
-  - > output : contains any saved, processed files like output tables or processed RData files
-  - > scripts : contains all of your R scripts for the project. 
-  - > images : captures Any output images/figures that you have generated from your analysis
+ Organization is key! Start a project nice and tidy. I typically recommend the minimum folder structure of:
+``` none 
+   data : contains all of your input datasets planned for this project
+   output : contains any saved, processed files like output tables or processed RData files
+   scripts : contains all of your R scripts for the project. 
+   images : captures Any output images/figures that you have generated from your analysis
+```
 
 ![Basic Setup](images/RStudio-Basic-Chapt1.1.png)
 
