@@ -1,4 +1,5 @@
 # Arithmetic Operators
+Like in Python, R has a series of built in arithmetic operators. Take note of any differences between python and R. 
 
 {numref}`arithmetic-operators` lists the arithmetic operators.
 
@@ -19,3 +20,4 @@
 :::{warning}
 R integer division rounds towards negative infinity. This is different from truncation. Truncation would just drop the digits after the decimal. So, be careful with negative operands!
 :::
+
