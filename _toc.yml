@@ -31,4 +31,4 @@ chapters:
   - file: chapters/05/input_output
 - file: chapters/06/intro
   sections:
-  - file: chapters/06/packages
+  - file: chapters/06/basic_packages
