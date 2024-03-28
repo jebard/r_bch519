@@ -1,15 +1,12 @@
 # Input and output controls
 
-Bioinformatics is a field of big datasets. Fortunately for us, by the time data is being imported into R for analysis, it has been substantially processed on the command line.
-For example, illumina sequencers can produce billions of sequences, which can be reduced to a simple gene x sample matrix as in the case of RNA-Sequencing. Here we will go over
-the code needed to load in data from matrix files and do some initial processing.
-
 In the fundamentals section, we covered setting up your project data folder. If everything is loaded into your directory structure properly, we should be able to easily use 
 relative paths to quickly load up data files.
 
 
 ## Loading from a flat file
 In the first case, we will load up a .csv format file to start. R has several built in tools to read flat files.
+
 ```r
 # read in the data input file labelled SEPA-2023-Metadata.csv
 # we are going to assign metadata variable with the information.
