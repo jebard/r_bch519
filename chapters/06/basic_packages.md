@@ -29,7 +29,7 @@ This is similiar to the import statements in python (import biopython).
 
 ``` R
 library(ggplot2) # loads ggplot2 package
-library(DEseq2) # loads the DESeq2 package
+library(DESeq2) # loads the DESeq2 package
 ```
 
 Lastly, to check to see which packages are currently loaded in your R enviornment, you can issue the sessionInfo() function.
