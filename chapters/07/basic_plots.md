@@ -59,7 +59,7 @@ ggplot to "add" the geom_point() to the base plot. Then again we "add" the label
 set.seed(123)
 data <- data.frame(
   x = rnorm(100, mean = 5, sd = 2),
-  y = 2 * data$x + rnorm(100, mean = 0, sd = 1)
+  y = 2 * rnorm(100, mean = 0, sd = 1)
 )
 
 # Create the plot
