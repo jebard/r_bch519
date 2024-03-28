@@ -32,3 +32,6 @@ chapters:
 - file: chapters/06/intro
   sections:
   - file: chapters/06/basic_packages
+- file: chapters/07/intro
+  sections:
+  - file: chapters/07/basic_plots
