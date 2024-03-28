@@ -10,6 +10,5 @@ What are the advantages of using functions?
 - Functions can OPTIONALLY take argument(s) that they can use inside the function
 - Functions can OPTIONALLY return value(s)
 
-The general form of a function call is as follows:
 ```{tableofcontents}
 ```
